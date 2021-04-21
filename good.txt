@@ -1,0 +1,18 @@
+#-*-coding:utf8;-*-
+#qpy:console
+#Geeting to the customer
+print("------welcome to Ab store-------")
+print("We provide you many kind of food")
+print(" To proceed put your information")
+name=input("what is your name ? ")
+print(" We welcome you"+" "+ name)
+rice =250
+beans =150
+pepper= 300
+yam =500
+egg =50
+customer_question= input(" which kind of food did you  wiant ?")
+if customer_question == "rice":
+    print(f" we sell rice for" +"#"+str(rice))
+elif customer_question.lower() == "beans":
+     print(f" we sell beans for"+"#" + str(beans))
